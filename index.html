@@ -25,5 +25,32 @@
     <p>Second number: <span id= "secondNum">7</span> </p>
     <p>Therefore, the sum of the two of those numbers is: <span id= "answer">(placeholder for the answer)</span></p>
     <input type="button" id="sumButton" value="Click to add!">
+
+    <p>The difference of the two of those numbers is: <span id= "answer2">(placeholder for the answer)</span></p>
+    <input type="button" id="differenceButton" value="Click to minus!">
 </body>
+<script>
+  function displaySum() {
+    let firstNum = Number(document.getElementById('firstNum').innerHTML)
+    let secondNum = Number(document.getElementById('secondNum').innerHTML)
+  
+    let total = firstNum + secondNum;
+    document.getElementById("answer").innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ;
+  }
+  
+  document.getElementById('sumButton').addEventListener("click", displaySum);
+</script>
+
+<script>
+  function displaySum() {
+    let firstNum = Number(document.getElementById('firstNum').innerHTML)
+    let secondNum = Number(document.getElementById('secondNum').innerHTML)
+  
+    let total = firstNum - secondNum;
+    document.getElementById("answer2").innerHTML = ` ${firstNum} - ${secondNum}, equals to ${total}` ;
+  }
+  
+  document.getElementById('differenceButton').addEventListener("click", displayDifference);
+</script>
+  
 </html>
