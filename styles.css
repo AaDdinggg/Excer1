@@ -1,16 +1,30 @@
+/* Define styles for headers */
 h1 {
   background-color: #ff0000;
+  padding: 10px; /* Add padding for spacing */
+  border-radius: 10px; /* Round the corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a soft shadow */
 }
 
 h2 {
   background-color: #0000FF;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 h3 {
   background-color: #00FF00;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Define styles for emphasized text */
 em {
   background-color: #000000;
   color: #ffffff;
+  padding: 5px; /* Add padding for spacing */
+  border-radius: 5px; /* Round the corners */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a soft shadow */
 }
