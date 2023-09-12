@@ -1,9 +1,12 @@
 /* Define styles for headers */
 h1 {
   background-color: #ff0000;
-  padding: 10px; /* Add padding for spacing */
-  border-radius: 10px; /* Round the corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a soft shadow */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center; /* Center the text horizontally */
+  width: 50%; /* Limit the width to 50% of the container */
+  margin: 0 auto; /* Center the element horizontally within its parent */
 }
 
 h2 {
@@ -11,6 +14,9 @@ h2 {
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
 }
 
 h3 {
@@ -18,13 +24,20 @@ h3 {
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
 }
 
 /* Define styles for emphasized text */
 em {
   background-color: #000000;
   color: #ffffff;
-  padding: 5px; /* Add padding for spacing */
-  border-radius: 5px; /* Round the corners */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a soft shadow */
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  text-align: center; /* Center the text horizontally */
+  width: 50%; /* Limit the width to 50% of the container */
+  margin: 0 auto; /* Center the element horizontally within its parent */
 }
+
